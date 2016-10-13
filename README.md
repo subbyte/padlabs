@@ -1,5 +1,7 @@
 # padlabs: Program Anomaly Detection Labs
 
+### Lab Demo
+
 Part of this lab is used in the 2016 ACM Conference on Computer and Communications Security (CCS) Tutorial:
 
 * [Program Anomaly Detection: Methodology and Practices](https://www.sigsac.org/ccs/CCS2016/tutorials/#anomaly)
