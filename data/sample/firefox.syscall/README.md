@@ -14,7 +14,7 @@ Exploit Information
 * activities after exploit: only `uname -a`
 
 Benign/normal traces:
-* ff.benign.[01-05]
+* ff.benign.[01-05] (5 different behaviors, e.g., open webpage, use searchbar, open dialog, watch video, use flash)
 
 Exploit trace:
 * ff.exploited.cve-2014-8636
