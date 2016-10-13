@@ -13,8 +13,8 @@ Exploit Information
 * metasploit payload: firefox/shell_reverse_tcp
 * activities after exploit: only `uname -a`
 
-Benign/normal traces:
+Normal/benign traces:
 * ff.benign.\[01-05\] (5 different behaviors, e.g., open webpage, use searchbar, open dialog, watch video, use flash)
 
-Exploit trace:
+Anomalous/malicious trace:
 * ff.exploited.cve-2014-8636
