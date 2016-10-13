@@ -7,7 +7,12 @@ Part of this lab is used in the 2016 ACM Conference on Computer and Communicatio
  * Oct 25, 2016
  * Hofburg Palace, Vienna, Austria
 
-### Example: data-driven program anomaly detection workflow (n-gram model):
+### Included Scripts
+
+* n-gram/shingle model: the script will generate n-grams to construct the model
+* deterministic finite automaton (DFA) model: the script will generate DFA vertices/edges for Neo4J visualization
+
+### Example: Data-Driven Program Anomaly Detection Workflow (n-gram Model)
 
 1. Generate training traces, e.g., `strace -o ls.trace ls .`
 2. Extract pure syscalls, e.g., `tr '[:upper:]' '[:lower:]' < ls.trace | sed '/^[^a-z_]/d' | sed 's/(.*//' > sys.list`
