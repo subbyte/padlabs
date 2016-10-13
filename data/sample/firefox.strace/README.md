@@ -1,4 +1,4 @@
-# Firefox Traces
+# Firefox Sample Traces
 
 Execution Environment
 * OS image: linuxmint-13-cinnamon-dvd-32bit.iso
