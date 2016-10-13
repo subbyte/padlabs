@@ -1,6 +1,6 @@
 # Firefox Sample Traces
 
-Each trace contains all system calls captured from an entire Firefox execution. The user click "exit" to close Firefox at the end.
+Each trace contains all system calls captured from an entire Firefox execution. The user click "exit" to close Firefox at the end. All child processes are included.
 
 Execution Environment
 * OS image: linuxmint-13-cinnamon-dvd-32bit.iso
