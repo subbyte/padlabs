@@ -1,4 +1,4 @@
-# padlabs: Program Anomaly Detection Labs
+# Program Anomaly Detection Labs
 
 ### Lab Demo
 
