@@ -8,7 +8,7 @@ Part of this lab is used in the 2016 ACM Conference on Computer and Communicatio
  * 10:00 AM - 11:30 AM
  * Oct 25, 2016
  * Hofburg Palace, Vienna, Austria
- * [Lab in the tutorial](https://github.com/subbyte/padlabs/blob/master/src/ccs2016.tut01.md)
+ * [Lab tasks in the tutorial](https://github.com/subbyte/padlabs/blob/master/src/ccs2016.tut01.md)
 
 ### Included Scripts
 
