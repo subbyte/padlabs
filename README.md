@@ -18,26 +18,26 @@ Part of this lab is used in the 2016 ACM Conference on Computer and Communicatio
 ### Example: Data-Driven Program Anomaly Detection Workflow (n-gram Model)
 
 1. Generate training traces
- ```
+ ```bash
  strace -o ls.trace ls .
  ```
 
 2. Extract pure syscalls
- ```
+ ```bash
  tr '[:upper:]' '[:lower:]' < ls.trace | sed '/^[^a-z_]/d' | sed 's/(.*//' > sys.list
  ```
 
 3. Build the profile using scripts in `src`
- ```
+ ```bash
  ./shingling.sh sys.list 4
  ```
 
 4. Merge multiple training profiles to construct the normal behaivor model
- ```
+ ```bash
  cat profiles | sort -u > modelfile
  ```
  
 5. Generate testing traces and detect anomalies
- ```
+ ```bash
  comm -13 training testing
  ```
