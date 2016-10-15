@@ -22,7 +22,7 @@ Part of this lab is used in the 2016 ACM Conference on Computer and Communicatio
  strace -o ls.trace ls .
  ```
 
-2. Extract pure syscalls
+2. Extract pure syscall list from the trace
  ```bash
  tr '[:upper:]' '[:lower:]' < ls.trace | sed '/^[^a-z_]/d' | sed 's/(.*//' > sys.list
  ```
